@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercise Tracker</title>
+  </head>
+  <body>
+    <h2>Add User</h2>
+    <form action="/api/exercise/new-user" method="POST">
+      <input type="text" name="username" placeholder="Username" />
+      <button type="submit">Add User</button>
+    </form>
+    <h2>Add Exercise</h2>
+    <form action="/api/exercise/add" method="POST">
+      <input type="text" name="username" placeholder="Username*" />
+      <input type="text" name="description" placeholder="Description*" />
+      <input type="text" name="duration" placeholder="Duration*" />
+      <input type="text" name="date" placeholder="YYYY-MM-DD" />
+      <button type="submit">Add Exercise</button>
+    </form>
+  </body>
+</html>

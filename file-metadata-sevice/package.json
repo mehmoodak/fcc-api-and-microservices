@@ -1,0 +1,16 @@
+{
+  "name": "file-metadata-sevice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
+  },
+  "author": "Mehmood Ahmad Khan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.1"
+  }
+}
